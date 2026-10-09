@@ -113,7 +113,7 @@ Follow these steps to get the project up and running locally:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/victor_search.git
+git clone https://github.com/ReaksmeyDev/vector_search.git
 cd victor_search
 ```
 
