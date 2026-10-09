@@ -25,7 +25,6 @@
 - [API Reference](#-api-reference)
 - [Automated Testing](#-automated-testing)
 - [Project Structure](#-project-structure)
-- [Git & Team Collaboration Guidelines](#-git--team-collaboration-guidelines)
 - [License](#-license)
 
 ---
@@ -361,39 +360,6 @@ victor_search/
 
 ---
 
-## 🤝 Git & Team Collaboration Guidelines
-
-When pushing this repository to GitHub or onboarding team members:
-
-1. **Never commit `.env`**:
-   The `.gitignore` is already set up to exclude `.env`. Keep your private API keys and database credentials secure.
-2. **Pushing to your GitHub remote**:
-   ```bash
-   # Initialize git if not already tracked
-   git init
-
-   # Stage changes (including the new README)
-   git add .
-
-   # Commit
-   git commit -m "feat: complete Rule Vector Search Engine demo with README"
-
-   # Rename branch to main
-   git branch -M main
-
-   # Add your GitHub repository remote
-   git remote add origin https://github.com/<your-username>/victor_search.git
-
-   # Push to GitHub
-   git push -u origin main
-   ```
-3. **Sharing with Teammates**:
-   - Invite your team members as collaborators on GitHub.
-   - Teammates only need to clone the repo, run `composer install`, copy `.env.example`, run `php artisan migrate --seed`, and run `php artisan serve`.
-   - Remind them that an API key is **optional** — they can test immediately with the built-in offline embedding engine.
-
----
-
 ## 📄 License
 
-This demo project is open-sourced under the [MIT License](LICENSE).
+This demo project is open-sourced
